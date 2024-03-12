@@ -1,7 +1,11 @@
 
 #about{
+    display:inline-block;
     font-family: arial;
-    background-color: aqua;
+    background-color: rgb(245, 240, 240);
+    text-align:left;
+
+    margin:20px;
 
 }
 
@@ -16,6 +20,7 @@ body{
 .dibujo{
     width: 400px;
     height: auto;
+    vertical-align:top;
 }
 
 header{
@@ -61,7 +66,8 @@ a{
     /*Normalmente pondría el alineamiento vertical en middle,
     pero no funciona bien. En top tampoco queda mal. Lo dejo en 100px o 5em*/
     vertical-align: 5em;
-    margin-left: 40px;
+    margin: 40px;
+    max-width: 400px;
     
     
 }
